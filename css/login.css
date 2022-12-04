@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(10deg, rgba(27, 97, 163, 1) 0%, rgba(10, 225, 247, 1) 100%);
+}
+.login_form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login_header{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.login_header a{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login_header img {
+    width: 200px;
+}
+
+.login_header h1 {
+    color: #004AAD;
+    font-size: 1.5em;
+}
+
+.login_input {
+    border: 2px solid #004AAD;
+    border-radius: 5px;
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 250px;
+    outline: none;
+    padding: 12px;
+}
+
+.login_btn {
+    background-color: #004AAD;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3em;
+    width: 180px;
+    max-width: 300px;
+    padding: 12px;
+}
+
+
+.link_btn {
+    padding: 4px 0;
+}
+
+.login_btn:disabled {
+    background-color: rgb(165, 162, 162);
+    color: white; ;
+    cursor: auto;
+}
+.house_btn {
+    background-color: #004AAD;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1.8em;
+    width: 60px;
+    max-width: 300px;
+    padding: 12px 5px;
+}
+.flex{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+   
+}
+
+.logoinic{
+    width: 50%;
+}
+
+.house_btn2{
+    width: 50%;
+    text-align: right;
+}
