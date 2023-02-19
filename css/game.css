@@ -56,4 +56,11 @@ body {
         grid-template-columns: repeat(2, 1fr);
         padding: 15px;
     }
+    .info_space {
+        text-align: center;
+        background-color: rgba(240, 255, 240, 0.382);
+        height: 75%;
+        width: 92%;
+        border-radius: 5px;
+    }
 }
