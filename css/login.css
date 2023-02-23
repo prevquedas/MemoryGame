@@ -73,11 +73,21 @@ body{
     padding: 4px 0;
 }
 
+.link_click{
+    text-align: center;
+    text-decoration: underline !important;
+    color: rgb(31, 57, 203);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 15px 0;
+}
+
+
 .login_btn:disabled {
     background-color: rgb(165, 162, 162);
-    color: white; ;
+    color: white; 
     cursor: auto;
 }
+
 .house_btn {
     background-color: #004AAD;
     border-radius: 5px;
